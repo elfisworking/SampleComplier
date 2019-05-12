@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/12/9 12:42:51。
+     1>项目“E:\编译原理\sample\sample\sample\sample.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\sample.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt assit.h
+         assit.h
+         G:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt scan.c
+         scan.c
+     1>scan.c(167): warning C4027: 未用形参表声明的函数
+     1>scan.c(191): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+     1>scan.c(332): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+     1>scan.c(357): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+       Link:
+         G:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\编译原理\sample\sample\Release\sample.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\编译原理\sample\sample\Release\sample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\编译原理\sample\sample\Release\sample.lib" /MACHINE:X86 Release\assit.obj
+         Release\main.obj
+         Release\scan.obj
+         Release\util.obj
+         正在生成代码
+         已完成代码的生成
+         sample.vcxproj -> E:\编译原理\sample\sample\Release\sample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\编译原理\sample\sample\Release\sample.exe;#1" /manifest Release\sample.exe.intermediate.manifest "G:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\sample.unsuccessfulbuild”。
+         正在对“Release\sample.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\编译原理\sample\sample\sample\sample.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.91

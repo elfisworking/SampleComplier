@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/12/9 12:42:22。
+     1>项目“E:\编译原理\sample\sample\sample\sample.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\sample.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt assit.h
+         assit.h
+         G:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt scan.c
+         scan.c
+     1>e:\编译原理\sample\sample\sample\scan.c(167): warning C4027: 未用形参表声明的函数
+     1>e:\编译原理\sample\sample\sample\scan.c(191): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+     1>e:\编译原理\sample\sample\sample\scan.c(332): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+     1>e:\编译原理\sample\sample\sample\scan.c(357): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         G:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\编译原理\sample\sample\Debug\sample.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\编译原理\sample\sample\Debug\sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\编译原理\sample\sample\Debug\sample.lib" /MACHINE:X86 Debug\sample.exe.embed.manifest.res
+         Debug\assit.obj
+         Debug\main.obj
+         Debug\scan.obj
+         Debug\util.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\sample.exe.embed.manifest" /manifest Debug\sample.exe.intermediate.manifest "G:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         sample.vcxproj -> E:\编译原理\sample\sample\Debug\sample.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\sample.unsuccessfulbuild”。
+         正在对“Debug\sample.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\编译原理\sample\sample\sample\sample.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11
